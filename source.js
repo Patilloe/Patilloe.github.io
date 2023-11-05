@@ -6,19 +6,18 @@ const SHOP_PMF = [
   [0.55, 0.30, 0.15, 0.00, 0.00],
   [0.45, 0.33, 0.20, 0.02, 0.00],
   [0.25, 0.40, 0.30, 0.05, 0.00],
-  [0.19, 0.30, 0.35, 0.15, 0.01],
-  [0.16, 0.20, 0.35, 0.25, 0.04],
-  [0.09, 0.15, 0.20, 0.30, 0.16],
+  [0.19, 0.30, 0.40, 0.10, 0.01],
+  [0.18, 0.25, 0.36, 0.18, 0.03],
+  [0.10, 0.15, 0.20, 0.35, 0.10],
   [0.05, 0.10, 0.20, 0.40, 0.25],
-  [0.01, 0.02, 0.12, 0.50, 0.35],
 
 ]
 
 // COPIES[c] is the total number of copies of a champion with cost `c`.
-const COPIES = [29, 22, 18, 12, 10];
+const COPIES = [22, 18, 15, 10, 9];
 
 // CHAMPS[c] is the number of unique champions with cost `c`.
-const CHAMPIONS = [13, 13, 13, 12, 8];
+const CHAMPIONS = [13, 13, 13, 13, 8];
 
 function factorial(x) {
 	if (x == 0) return 0.0;
